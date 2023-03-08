@@ -20,7 +20,6 @@ p {
     margin: 0px;
 }
 img {
-    padding: px;
     max-width: 70%;
 }
 main {
@@ -28,4 +27,12 @@ main {
     color: white;
     height: 100vh;
     background-size: cover;
+}
+ul {
+    padding: 30px;
+    list-style-type: none;
+}
+strong {
+    font: normal 3em 'font titulo', sans-serif;
+    padding-right: 30px;
 }
