@@ -29,24 +29,30 @@ h2 {
     padding: 10px;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.74);
 }
-
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 5px;}
+td {
+    border: 2px solid #CF681B;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+}
+tr{
+    border-radius: 5px;
+}
 p {
     margin: 0px;
-}
-img {
-    
 }
 main {
     background-image: url(imagens/background.jpeg);
     color: white;
     height: 100vh;
-    background-repeat: repeat;
+    background-repeat:repeat-y;
+    background-size: cover ;
     
     
-}
-ul {
-    padding: 30px;
-    list-style-type: none;
 }
 strong {
     font: normal 3em 'font titulo', sans-serif;
@@ -58,7 +64,6 @@ td {
     font-weight: 600;
     text-align: justify;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.651);
-    padding-top: 20px;
 }
 span {
     font: normal 1.5em arial, sans-serif;
@@ -66,6 +71,7 @@ span {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     padding: 10px;
+    bor
 }
 small {
     font-size: 0.7em;
